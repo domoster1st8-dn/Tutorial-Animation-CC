@@ -8,11 +8,13 @@ public class DoorTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("A");
         anim.SetTrigger("PlayerProximity");
     }
 
     private void OnTriggerExit(Collider other)
     {
+        Debug.Log("B");
         anim.SetTrigger("PlayerProximity");
     }
 }
