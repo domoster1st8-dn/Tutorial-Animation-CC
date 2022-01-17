@@ -3830,7 +3830,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3550426403478806512, guid: f5e4e261a70f1f147a0b3a1525ee1269, type: 3}
       propertyPath: LockCameraPosition
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550426403478806512, guid: f5e4e261a70f1f147a0b3a1525ee1269, type: 3}
+      propertyPath: RotationSmoothTime
+      value: 0.034
       objectReference: {fileID: 0}
     - target: {fileID: 3959107418422556622, guid: f5e4e261a70f1f147a0b3a1525ee1269, type: 3}
       propertyPath: m_LocalPosition.x
